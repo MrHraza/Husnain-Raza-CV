@@ -1,39 +1,159 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# My CV
 
-Welcome,
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Table of Contents
 
-## Codeanywhere Reminders
+- [Project Overview](#project-overview)
+- [Live Site](#live-site)
+- [Repository](#repository)
+- [Author](#author)
+- [Target Audience](#target-audience)
+- [Project Goals](#project-goals)
+- [User Stories](#user-stories)
+- [Website owner](#website-owner)
+- [Developer](#developer)
+- [Design choices](#design-choices)
+- [Wireframes](#wireframes)
+- [Features](#features)
+- [Interactive Design Elements](#interactive-design-elements)
+- [Implemented features](#implemented-features)
+- [Future features](#future-features)
+- [Version Control](#version-control)
+- [Testing](#testing)
+- [Accessibility Testing](#accessibility-testing)
+- [Examples of Responsive design](#examples-of-responsive-design)
+- [Defects list](#defects-list)
+- [Outstanding defects](#outstanding-defects)
+- [Technologies used](#technologies-used)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Content and Media](#content-and-media)
+- [Acknowledgements](#acknowledgements)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+<br>
 
-`python3 -m http.server`
+## Project Overview
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Live Site
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Repository
 
-`http_server`
+- https://github.com/MrHraza/Husnain-Raza-CV
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Author
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Developer  -  *Husnain Raza*
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Target Audience
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Project Goals
 
----
 
-Happy coding!
+## User Stories
+
+## Website owner
+
+## Developer
+
+As a Developer I want to push myself and demonstrate my ability in coding.
+
+## Design choices
+
+#### Colours
+
+#### Typography
+
+
+#### Imagery
+
+#### Animations and Transitions
+
+
+#### Site Structure
+
+## Wireframes
+
+## Features
+
+## Interactive Design Elements
+
+## Implemented features
+
+aspects of website ie. pages and their content
+
+#### Header
+
+#### Footer
+
+#### Homepage
+
+#### Contact us 
+
+#### Sign up
+
+#### Custom 404 error page
+
+## Future features
+
+
+## Version Control
+
+## Testing
+
+### Validation
+
+
+### Tested All pages 
+
+## Accessibility Testing
+
+#### Colour contrast accessibility testing
+
+
+#### Lighthouse
+
+
+## Examples of Responsive design
+
+
+## Defects list
+
+
+## Outstanding defects
+
+## Technologies used
+
+#### Programming Languages
+
+
+#### Frameworks and Extensions
+
+#### Icons
+
+
+#### Tools
+
+## Deployment
+
+
+## Credits
+
+
+## Content and Media
+
+
+#### Icons
+
+
+#### All images were taken from;
+
+
+#### Code related ideas;
+
+
+## Acknowledgements
+
+
