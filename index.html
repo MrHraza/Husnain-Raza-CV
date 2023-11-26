@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Bootstrap Grid Template</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/CV-project/css/style.css">
-
+    <title>Husnain Raza CV</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/cv-project/css/style.css" rel="stylesheet">
 </head>
 
 
 <body>
     <header>
     <!-- Navigation -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container">
                     <div class="client">
                         <h2 class="client-name">Husnain Raza</h2>
@@ -26,16 +27,16 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav nav-font ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About me.</a>
+                                <a class="nav-link" href="#about-me"><i class="fa fa-user-circle-o" aria-hidden="true"></i> About me.</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Experience.</a>
+                                <a class="nav-link" href="#experience-text"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Experience.</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">References.</a>
+                                <a class="nav-link" href="#references"><i class="fa fa-comments-o" aria-hidden="true"></i> References.</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact.</a>
+                                <a class="nav-link" href="#contact"><i class="fa fa-info-circle" aria-hidden="true"></i> Contact me.</a>
                             </li>
                         </ul>
                     </div>
@@ -46,13 +47,13 @@
     <!-- Page content -->
     <!-- top image -->
     <div class="container-fluid head-img">
-            <img src="assets/CV-project/images/Adaptable-Committed-Meticulous-resize.jpg"  class="img-fluid" alt="clients-workspace">
+            <img src="assets/CV-project/images/adaptable-committed-meticulous-resize.jpg"  class="img-fluid" alt="clients-workspace">
     </div>
 
     <!-- About me-->
-    <section class="container section-box">
+    <section class="container aboutme-section-box" id="about-me">
         <div class="row">
-            <div class="col-lg-12 about" id="about-me">
+            <div class="col-lg-12 about">
                 <h1 class="section-heading">About me.</h1>
                     <div class="inner-section-box">
                         <p class="section-text">
@@ -74,17 +75,17 @@
         </div>
     </section>
 
-     <!-- Experience-->
-    <section class="container-fluid section-box">
+    <!--Experience-->
+    <section class="container-fluid experience-section-box" id="experience-text">
         <div class="row">
             
             <!-- Left column for image portrait -->
-            <div class="col-md-6 experience-img-box">
+            <div class="col-md-6 experience-img-box" id="experience-img">
                 <img src="assets/CV-project/images/high-rise-offices.jpg" class="img-fluid" alt="programming languages">
             </div>
             <!-- Right column for experience overview -->
             <div class="col-md-6">
-                <h1 class="section-heading">Experience</h1>
+                <h1 class="section-heading">Experience.</h1>
                     <div class="inner-section-box">
                         <p class="section-text">Husnain Raza is an accomplished Full Stack Developer with a passion for crafting elegant and efficient solutions. 
                             Husnain's journey in the tech world began with a knack for problem-solving, propelling him into the realms of web and software development.
@@ -105,3 +106,124 @@
         </div>
     </section>
     
+     <!--References-->
+    <section class="container-fluid bg-dark reference-section-box" id="references">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="reference-heading">References.</h1>
+                    <div class="inner-reference-box">
+                        <div id="testimonials" class="carousel slide" data-ride="carousel" data-interval="10000">
+                            <!-- Indicators -->
+                            <ul class="carousel-indicators">
+                                <li data-target="testimonials" data-slide-to="0" class="active"></li>
+                                <li data-target="testimonials" data-slide-to="1"></li>
+                                <li data-target="testimonials" data-slide-to="2"></li>
+                                <li data-target="testimonials" data-slide-to="3"></li>
+                                <li data-target="testimonials" data-slide-to="4"></li>
+                            </ul>
+                            
+                            <!-- The slideshow -->
+                            <div class="carousel-inner carousel-">
+
+                                <div class="carousel-item active">
+                                    <p class="reference-text">"Husnain Raza has been a driving force in our development initiatives at CodeCrafters Inc. 
+                                        His role as a Full Stack Developer has been pivotal, with his innovative solutions consistently pushing the boundaries of what we can achieve. 
+                                        His commitment to excellence is truly commendable."</p>
+                                    <p class="company">CodeCrafters Inc.</p>
+                                </div>
+    
+                                <div class="carousel-item">
+                                    <p class="reference-text">"At TechVanguard Solutions, we were fortunate to have Husnain Raza on board as a Full Stack Developer. 
+                                        His ability to seamlessly blend frontend and backend technologies has been a cornerstone of our success. 
+                                        Husnain's dedication to crafting cutting-edge solutions reflects our commitment to technological innovation."</p>
+                                    <p class="company">TechVanguard Solutions</p>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <p class="reference-text">"Husnain Raza, as a Full Stack Developer at DigitalElevate Technologies, played a vital role in elevating our technological capabilities. 
+                                        His contributions to creating user-centric applications have set a benchmark for excellence within our organization. 
+                                        We're proud to have him as part of our team."</p>
+                                    <p class="company">DigitalElevate Technologies</p>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <p class="reference-text">"Husnain Raza's impact on AppGenius Co. as a Full Stack Developer has been nothing short of transformative. 
+                                        His commitment to creating high-quality and scalable applications aligns seamlessly with our company's mission. 
+                                        Husnain has been a true asset to our development team."</p>
+                                    <p class="company">AppGenius Co.</p>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <p class="reference-text">"WebMasters Innovate owes a great deal of its technological advancement to the expertise of Husnain Raza. 
+                                        As our Full Stack Developer, his versatility in navigating diverse programming languages has been instrumental."</p>
+                                    <p class="company">WebMasters Innovate</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me -->
+    <section id="contact" class= "contactme-section-box">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-heading">Contact me.</h2>
+                    <p class="mb-5 contactme-text">Feel free to get in touch with any inquiries for projects, vacancies or collaborations.</p>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-6 mx-auto">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="6" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark btn-block">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="col-lg-4 mx-auto contact-info-box">
+                    <h4 class="contactme-subheading">Contact Information</h4>
+                    <br>
+                    <p class="mb-1 contactme-text"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: Blackburn, United Kingdom</p>
+                    <p class="mb-1 contactme-text"><i class="fa fa-at" aria-hidden="true"></i> Email: ch.husnain.raza@gmail.com</p>
+                    <p class="contactme-text"><i class="fa fa-mobile" aria-hidden="true"></i> Phone: +44 2345678910</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+       <!-- Footer -->
+    <footer class= "footer-section-box bg-dark">
+        <div class="container text-white text-center">
+            <h4 class="footer-subheading">Connect with Me</h4>
+            <!-- Social media icons -->
+            <div class="socials">
+                <a aria-label="github" href="https://www.github.com" target="_blank"><i class="fa fa-github"></i></a>
+                <a aria-label="twitter" href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                <a aria-label="linkedin" href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
