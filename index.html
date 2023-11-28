@@ -14,7 +14,7 @@
 <body>
     <header>
     <!-- Navigation -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                 <div class="container">
                     <div class="client">
                         <h2 class="client-name">Husnain Raza</h2>
@@ -47,7 +47,7 @@
     <!-- Page content -->
     <!-- top image -->
     <div class="container-fluid head-img">
-            <img src="assets/cv-project/images/adaptable-committed-meticulous-resize.jpg"  class="img-fluid" alt="clients-workspace">
+            <img src="assets/CV-project/images/adaptable-committed-meticulous-resize.jpg"  class="img-fluid" alt="clients-workspace">
     </div>
 
     <!-- About me-->
@@ -81,7 +81,7 @@
             
             <!-- Left column for image portrait -->
             <div class="col-md-6 experience-img-box" id="experience-img">
-                <img src="assets/cv-project/images/high-rise-offices.jpg" class="img-fluid" alt="programming languages">
+                <img src="assets/CV-project/images/high-rise-offices.jpg" class="img-fluid" alt="programming languages">
             </div>
             <!-- Right column for experience overview -->
             <div class="col-md-6">
@@ -181,17 +181,17 @@
             <div class="row">
 
                 <div class="col-lg-6 mx-auto">
-                    <form action="#" method="post">
+                    <form id="contact-form">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your Full Name" required>
+                            <input type="text" class="form-control" name="from_name" id="from_name" placeholder="Your Full Name" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Your Email" required>
+                            <input type="email" class="form-control" name="from_email" id="from_email" placeholder="Your Email" required>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" rows="6" placeholder="Your Message" required></textarea>
+                            <textarea class="form-control" rows="6" name="message" id="message" placeholder="Your Message" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-dark btn-block">Send Message</button>
+                        <input type="submit" id="btn-email" class="btn btn-dark btn-block" value="Send Message"></input>
                     </form>
                 </div>
 
@@ -221,9 +221,12 @@
         </div>
     </footer>
     
-    
+    <!-- Bootstrap JS, jQuery and Emailjs-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">emailjs.init('ZpnQyRtpE0sKCatKx')</script>
+    <script src="assets/cv-project/js/email.js"></script>
 </body>
 </html>
