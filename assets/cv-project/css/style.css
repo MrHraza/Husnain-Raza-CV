@@ -93,6 +93,13 @@ header {
     padding-right: 40px;
 }
 
+.experience-inner-section-box{
+    border-left: 4px solid;
+    border-color:rgb(53,58,64);
+    padding: 60px;
+    margin: 50px;
+}
+
 /*references - carousel*/
 
 .reference-section-box{
@@ -145,11 +152,16 @@ header {
     padding-bottom: 6rem;
 }
 
+.form-style{
+    margin: 30px;
+}
+
 .contact-info-box{
     border-left: 4px solid;
     border-color:rgb(53,58,64);
     padding-left: 60px;
     padding-top: 60px;
+    margin: 0 auto;
 }
 
 
@@ -199,4 +211,34 @@ header {
 
 .socials i{
     font-size: 25px;
+}
+
+
+@media screen and (max-width: 1024px){
+
+    .experience-img-box{
+        display: none;
+    }
+
+    .experience-inner-section-box{
+        border-left: 4px solid;
+        border-color:rgb(53,58,64);
+        width: 75vw;
+        padding: 60px;
+        margin: 50px;
+    }
+
+    .experience-overview{
+        margin-left: 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+
+    .inner-section-box{
+        padding-right: 0px;
+    }
+
 }
