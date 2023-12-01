@@ -17,7 +17,6 @@
 - [Target Audience](#target-audience)
 - [Project Goals](#project-goals)
 - [User Stories](#user-stories)
-- [Website owner](#website-owner)
 - [Developer](#developer)
 - [Design choices](#design-choices)
 - [Wireframes](#wireframes)
@@ -255,49 +254,66 @@ Gmail account.
 
 ![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/7dde1010-affd-47c3-b078-40cd1f39f653)
 
+<br>
 
 ## Implemented features
 
-aspects of website ie. pages and their content
-
 <br>
 
-- **header**
-  This contains a navigation element in the form of a menu, when using on a tablet or a mobile device this changes to a drop-down menu.
+**header**
+- This contains a navigation element in the form of a menu, when using on a tablet or a mobile device this changes to a drop-down menu.
   
-- **about me section**
-  Features a link to a personal statement.
+**about me section**
+- Features a link to a personal statement.
   
-- **experience section**
-  Features a link to a cv.
+**experience section**
+- Features a link to a cv.
   
-- **references section**
-  Features a carousel displaying my references.
+**references section**
+- Features a carousel displaying references.
   
-- **contact me section**
-  Features a working contact form, link to clients Gmail account using Javascript Api, Emailjs.
+**contact me section**
+- Features a working contact form, link to clients Gmail account using Javascript Api, Emailjs.
   
-- **footer with socials.**
-  Social links to clients social media platform.
+**footer with socials.**
+- Social links to clients social media platform.
 
 <br>
-
-#### Header
-
-#### Footer
-
-#### Homepage
-
-#### Contact us 
-
-#### Sign up
-
-#### Custom 404 error page
 
 ## Future features
 
+<br>
+
+CV websites continuously evolve as people increase in experience. Some future features that could enhance this website are:
+
+1. **Interactive Elements:**
+   - **Interactive timelines:** A dynamic timeline showcasing career milestones as they are achieved.
+   - **Progress bars:** Visual representation of skill levels or completion of future projects.
+   - **Animations:** Subtle animations to add visual interest without overwhelming the content.
+
+2. **AI-Powered Elements:**
+   - **Chatbots:** AI-driven chatbots offering assistance or answering FAQs.
+
+3. **Multimedia Integration:**
+   - **Video introductions:** Personalized video introductions.
+
+4. **Accessibility Features:**
+   - **Language translation:** Integration for multilingual support.
+
+5. **AI-driven Recommendations:**
+    - **Job matching:** AI algorithms suggesting job opportunities based on skills and experience.
+
+These features can elevate the user experience, showcase skills more dynamically, and provide valuable insights to both the visitors and the CV owner. 
+
+<br>
 
 ## Version Control
+
+<br>
+
+I am definitly not satisfied with the amount of time I left myself starting this project (2 weeks). I struggled alot with understanding JS and completing course material. However, I am happy that i've manage what I have in this time and put together this CV website. Given that this project has been alot smaller in terms of content, i am happy with my commits and feel that for the amount of work i have committed more which has been a target since the last project. 
+
+<br>
 
 ## Testing
 
@@ -326,32 +342,131 @@ aspects of website ie. pages and their content
 
 #### Programming Languages
 
+<br>
+
+- CSS 
+- HTML 
+- JS 
+- Markdown
+
+<br>
 
 #### Frameworks and Extensions
 
+<br>
+
+- Bootstrap 4.2.1
+
+<br>
+
 #### Icons
 
+<br>
+
+- FontAwesome 4.7
+
+<br>
 
 #### Tools
 
+<br>
+
+- Github
+- Gitpod
+- Visual Studio
+- Pen and paper
+- Internet
+- Markdown table of contents generator
+- Favicon
+
+<br>
+
 ## Deployment
 
+#### Follow the steps to deploy on Github pages. 
+
+
+>>> need to change <<<
+
+1. In your repository, click on 'settings' in the navigation bar.
+   
+   
+![image](https://github.com/MrHraza/Merci-France/assets/136586198/cb3856e3-8c91-426a-9b18-9469cee122a2)
+
+
+2. In the side menu, on the settings page, click pages (highlighted).
+   
+
+![image](https://github.com/MrHraza/Merci-France/assets/136586198/087224aa-93fc-4fbd-9342-26c21846cb9e)
+
+
+3. Select that which you want to deploy. (main)
+   
+
+![image](https://github.com/MrHraza/Merci-France/assets/136586198/aeb717cf-123c-478e-be05-2f9d5527e518)
+
+
+4. Save and deploy options are then available to click.
+5. You can find a link to your deployed website through 'Settings > Pages' or by clicking 'Environments' on the right-hand side of your repository page. 
+
+<br>
 
 ## Credits
 
+<br>
+
+- Code Institute Interactive frontend development Lessons
+- Code Institutes Resume project
+
+<br>
 
 ## Content and Media
 
+#### The following websites were visited for inspiration/ideas;
+
+<br>
+
+- https://codepen.io
+- https://fonts.google.com/
+
+<br>
 
 #### Icons
 
+<br>
+
+- https://fontawesome.com/v4/icons/
+
+<br>
 
 #### All images were taken from;
 
+<br>
+
+- www.pexels.com - images on the website.
+- www.pngegg.com - Favicon "coding brackets"
+
+<br>
 
 #### Code related ideas;
 
+<br>
 
-## Acknowledgements
+- Code Institutes Rosie Odenkirk resume project
+- https://www.w3schools.com/
 
+<br>
+
+## Acknowledgements *********************need adjustment************************************
+
+- CodeInstitute template
+- **Malia Havlicek - mentor**
+- Chrome Developer Tools
+- https://www.w3schools.com/
+- https://slack.com/
+- https://ui.dev/amiresponsive
+- https://jigsaw.w3.org/css-validator/
+- https://validator.w3.org/
+- Lighthouse
+- Windows screen reader
 
