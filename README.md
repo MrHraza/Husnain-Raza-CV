@@ -42,6 +42,9 @@
 
 <br>
 
+![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/aaae0418-74ea-4ce9-a86e-8a9460c4bf45)
+
+
 This website is for employers to view my personal biography, experience/skills and see my references in the role of a full stack web developer. It was designed to present to recruiters as an intuitive website both on mobile devices and desktop.
 
 <br>
