@@ -1,23 +1,33 @@
-const btn = document.getElementById('btn-email');
+function sendMail(contactForm) {
+    var sendButton = contactForm.querySelector('button[type="submit"]');
+    sendButton.innerText = 'Sending...';
+    sendButton.disabled = true;
+    
 
-document.getElementById('contact-form')
-    .addEventListener('submit', function(event) {
-        event.preventDefault();
-
-        btn.value = 'Sending...';
-
-        const serviceID = 'service_dgze89f';
-        const templateID = 'Enquiry email temp';
-
-    emailjs.sendForm(serviceID, templateID, this)
-        .then(() => {
-            btn.value = 'Send Message';
-            alert('Sent!');
+    emailjs.send('service_dgze89f', 'Enquiry email temp', {
+        "from_name": contactForm.name.value,
+        "from_email": contactForm.email.value,
+        "message": contactForm.clientMessage.value
+    })
+    .then(
+        function(response) {
+            console.log("SUCCESS", response);
+            alert('Thank you for your message. Husnain will contact you shortly...');
+            sendButton.innerText = 'Sent';
+            setTimeout(function() {
+                sendButton.innerText = 'Send Message'; // Revert to original text
+                sendButton.disabled = false;
+            }, 10000); // Change back after 10 seconds
             
-        }, (err) => {
-            btn.value = 'Send Message';
-            alert(JSON.stringify(err));
-        });
-        
-        return false;
-    });
+            contactForm.reset();
+        },
+        function(error) {
+            console.log("FAILED", error);
+            alert(JSON.stringify(error));
+        }
+    );
+    return false;  // To block from loading a new page
+}
+
+
+

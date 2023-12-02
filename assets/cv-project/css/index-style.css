@@ -240,21 +240,15 @@ header {
     text-align: center;
 }
 
-.btn-return{
+.return{
+    margin-top: 3rem;
     text-align: center;
 }
 
-#back {
-    margin-top: 30px;
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: rgb(53,58,64);
-    color: #fff;
+.button a{
     text-decoration: none;
-    border-radius: 5px;
+    color: white;
 }
-
-
 
 
 @media screen and (max-width: 1024px){
