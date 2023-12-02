@@ -1,3 +1,5 @@
+<p align="center"><img src="https://github.com/MrHraza/Husnain-Raza-CV/blob/main/assets/cv-project/favicon/android-chrome-512x512.png"/></p>
+
 # Husnain Raza CV
 
 <br>
@@ -468,9 +470,6 @@ errors: 'template literal syntax' is only available in ES6 (use 'esversion: 6') 
 
 #### Follow the steps to deploy on Github pages. 
 
-
->>> need to change <<<
-
 1. In your repository, click on 'settings' in the navigation bar.
    
    
@@ -509,7 +508,6 @@ errors: 'template literal syntax' is only available in ES6 (use 'esversion: 6') 
 
 <br>
 
-- https://codepen.io
 - https://fonts.google.com/
 
 <br>
@@ -535,6 +533,7 @@ errors: 'template literal syntax' is only available in ES6 (use 'esversion: 6') 
 
 <br>
 
+- https://codepen.io
 - Code Institutes Rosie Odenkirk resume project
 - https://www.w3schools.com/
 
