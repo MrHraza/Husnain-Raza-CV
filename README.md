@@ -316,7 +316,13 @@ I am definitly not satisfied with the amount of time I left myself starting this
 
 ### Validation html 
 
+- index.html
+
 ![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/c0c134d8-1a9f-45a4-9fad-2f901198e077)
+
+- page-not-found.html
+
+![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/f7b54b6c-eacf-4c22-9e4c-59045967f8b3)
 
 
 ### Validation css
@@ -534,8 +540,8 @@ errors: 'template literal syntax' is only available in ES6 (use 'esversion: 6') 
 
 <br>
 
-## Acknowledgements *********************need adjustment************************************
-
+## Acknowledgements
+- https://beautifytools.com/javascript-validator.php
 - CodeInstitute template
 - **Malia Havlicek - mentor**
 - Chrome Developer Tools
