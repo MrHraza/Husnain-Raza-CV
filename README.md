@@ -128,7 +128,7 @@ In this project, the color palette orchestrates a harmonious blend of seriousnes
 <br>
 
 #### Typography
-    
+
 I used two fonts on this website; Roboto and EB Garamond.
 Roboto is a clean, modern font, while EB Garamond has a classic, elegant feel. Combining the two creates a great visual contrast on a CV website.
 
@@ -137,12 +137,6 @@ Roboto is a clean, modern font, while EB Garamond has a classic, elegant feel. C
 #### Imagery
 
 Two images are placed on the website. The first is of the clients workspace and the stock image of high rise offices, an place synonymous with developers.
-
-<br>
-
-#### Animations and Transitions
-
-<br>
 
 <br>
 
@@ -320,28 +314,114 @@ I am definitly not satisfied with the amount of time I left myself starting this
 
 ## Testing
 
-### Validation
+### Validation html 
+
+- index.html
+
+![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/c0c134d8-1a9f-45a4-9fad-2f901198e077)
+
+- page-not-found.html
+
+![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/f7b54b6c-eacf-4c22-9e4c-59045967f8b3)
 
 
-### Tested All pages 
+### Validation css
+
+- index-style.css
+
+![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/79f25994-615a-4a1e-a405-71ed0b3cfc47)
+
+
+### Validation js
+
+- index.js
+
+![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/b99beba9-4d55-42ab-92a8-d2c13d3cd00f)
+
+errors: 'emailjs' < the api i used, 'sendMail' < this was returned from the function called once the 'send message' was clicked.
+
+- page-not-found.js
+
+![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/fda80e67-dbaa-457c-9d58-d32291ff5935)
+
+errors: 'template literal syntax' is only available in ES6 (use 'esversion: 6') < i didn't know what this meant.
+
+<br>
 
 ## Accessibility Testing
 
 #### Colour contrast accessibility testing
 
+<br>
+
+![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/a878cc3f-6b01-40b3-b17c-23a55f036e00)
+
+<br>
 
 #### Lighthouse
 
+<br>
+
+- page-not-found.html (desktop)
+
+![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/dc0a3858-91d2-4c91-be3e-0c602f9b3e39)
+
+- page-not-found.html (mobile)
+
+![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/58c3cce6-7816-4d35-9680-e9cacdcd37e0)
+
+- index.html (desktop)
+
+![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/9ac92137-eed4-4608-9cf4-9d7daa8d1525)
+
+- index.html (mobile)
+
+![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/6a6cb00e-03ea-44cb-a0e2-65e18f80251a)
+
+<br>
 
 ## Examples of Responsive design
 
+<br>
+
+- laptop
+
+![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/28423de5-9305-4961-9461-89594c109e9d)
+
+- Ipad Air
+
+![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/69a020f1-40e8-410e-8ca4-ebb55cb8432f)
+
+- ipad mini
+
+*menu has been opened*
+
+![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/0e3fbe8d-33d5-4654-89a0-828a2a350c68)
+
+- iphone 14 pro max
+
+![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/8eb51f1c-99e6-43f6-abf4-52c509c24ada)
+
+- samsung galaxy s20 ultra
+
+![image](https://github.com/MrHraza/Husnain-Raza-CV/assets/136586198/4d8e98bb-8e62-4e40-a1a7-6a0c728ae62f)
+
+
+<br>
 
 ## Defects list
 
+<br>
 
-## Outstanding defects
+*On smaller screens the layout/font size could be smaller and better organised, for a more user friendly experience.
+
+<br>
 
 ## Technologies used
+
+#### API
+
+- Emailjs
 
 #### Programming Languages
 
@@ -460,11 +540,12 @@ I am definitly not satisfied with the amount of time I left myself starting this
 
 <br>
 
-## Acknowledgements *********************need adjustment************************************
-
+## Acknowledgements
+- https://beautifytools.com/javascript-validator.php
 - CodeInstitute template
 - **Malia Havlicek - mentor**
 - Chrome Developer Tools
+- https://color.a11y.com/
 - https://www.w3schools.com/
 - https://slack.com/
 - https://ui.dev/amiresponsive
