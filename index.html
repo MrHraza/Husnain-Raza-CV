@@ -4,6 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Husnain Raza CV</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="192x192" href="assets/cv-project/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/cv-project/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/cv-project/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/cv-project/favicon/site.webmanifest">
+
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     
@@ -70,7 +76,9 @@
                         </p>
                             <br> 
                             <br>
-                            <a href="assets/cv-project/files/husnain-raza-personal-statement.pdf" target="_blank" class="cv-pdf"><button type="button" id="btn-text" class="btn btn-dark">Read Personal Statement ...</button></a>
+                        <div class="button btn btn-dark">
+                            <a href="assets/cv-project/files/husnain-raza-personal-statement.pdf" target="_blank" class="cv-pdf">Read Personal Statement ...</a>
+                        </div>
                     </div>
             </div>
         </div>
@@ -101,7 +109,10 @@
                         </p>
                         <br> 
                         <br>
-                        <a href="assets/cv-project/files/husnain-raza-cv.pdf" target="_blank" class="cv-pdf"><button type="button" id="btn-text" class="btn btn-dark">View simplified CV ...</button></a>
+                        <div class="button btn btn-dark">
+                            <a href="assets/cv-project/files/husnain-raza-cv.pdf" target="_blank" class="cv-pdf" >View simplified CV ...</a>
+                        </div>
+                        
                     </div>
             </div>
         </div>
@@ -182,17 +193,17 @@
             <div class="row">
 
                 <div class="col-lg-6 form-style">
-                    <form id="contact-form">
+                    <form id="contact-form" onsubmit="return sendMail(this);">
                         <div class="form-group">
-                            <input type="text" class="form-control" name="from_name" id="from_name" placeholder="Your Full Name" required>
+                            <input type="text" class="form-control" name="name" id="fullname" placeholder="Your Full Name" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" name="from_email" id="from_email" placeholder="Your Email" required>
+                            <input type="email" class="form-control" name="email" id="emailaddress" placeholder="Your Email" required>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" rows="6" name="message" id="message" placeholder="Your Message" required></textarea>
+                            <textarea class="form-control" rows="6" name="clientMessage" id="project" placeholder="Your Message" required></textarea>
                         </div>
-                        <input type="submit" id="btn-email" class="btn btn-dark btn-block" value="Send Message"></input>
+                        <button type="submit" id="btn-email" class="btn btn-dark btn-block">Send Message</button>
                     </form>
                 </div>
 
@@ -226,8 +237,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">emailjs.init('ZpnQyRtpE0sKCatKx')</script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>emailjs.init('ZpnQyRtpE0sKCatKx')</script>
     <script src="assets/cv-project/js/index.js"></script>
 </body>
 </html>
