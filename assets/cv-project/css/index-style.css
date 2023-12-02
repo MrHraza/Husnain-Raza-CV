@@ -189,6 +189,7 @@ header {
 .footer-section-box{
     padding-top: 1rem;
     padding-bottom: 1rem;
+
 }
 
 .footer-subheading{
@@ -197,7 +198,6 @@ header {
     font-size: large;
 
 }
-
 
 .socials a{
     color: whitesmoke;
@@ -212,6 +212,49 @@ header {
 .socials i{
     font-size: 25px;
 }
+
+/*page not found*/
+
+.page-not-found-heading{
+
+    font-size: 3em;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    padding: 50px;
+}
+
+.page-not-found-text{
+    font-size: 1.2em;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+
+#quote {
+    font-style: italic;
+    color: #777;
+    text-align: center;
+}
+
+.btn-return{
+    text-align: center;
+}
+
+#back {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(53,58,64);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
 
 
 @media screen and (max-width: 1024px){
